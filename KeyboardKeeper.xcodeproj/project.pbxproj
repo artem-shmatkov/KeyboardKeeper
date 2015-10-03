@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E012C6941BC011E800D9F55F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E012C6841BC011E800D9F55F /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		E012C6951BC011E800D9F55F /* KeyboardKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = E012C6871BC011E800D9F55F /* KeyboardKeeper.m */; settings = {ASSET_TAGS = (); }; };
+		E012C6961BC011E800D9F55F /* UIViewController+AnimateConstraintChange.m in Sources */ = {isa = PBXBuildFile; fileRef = E012C6891BC011E800D9F55F /* UIViewController+AnimateConstraintChange.m */; settings = {ASSET_TAGS = (); }; };
+		E012C6971BC011E800D9F55F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E012C68B1BC011E800D9F55F /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E012C6981BC011E800D9F55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E012C68D1BC011E800D9F55F /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		E012C6991BC011E800D9F55F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E012C68E1BC011E800D9F55F /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		E012C69A1BC011E800D9F55F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E012C6901BC011E800D9F55F /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		E012C69C1BC011E800D9F55F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E012C6931BC011E800D9F55F /* main.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E012C6481BBE74E500D9F55F /* KeyboardKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E012C6831BC011E800D9F55F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E012C6841BC011E800D9F55F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E012C6861BC011E800D9F55F /* KeyboardKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardKeeper.h; sourceTree = "<group>"; };
+		E012C6871BC011E800D9F55F /* KeyboardKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardKeeper.m; sourceTree = "<group>"; };
+		E012C6881BC011E800D9F55F /* UIViewController+AnimateConstraintChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AnimateConstraintChange.h"; sourceTree = "<group>"; };
+		E012C6891BC011E800D9F55F /* UIViewController+AnimateConstraintChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AnimateConstraintChange.m"; sourceTree = "<group>"; };
+		E012C68A1BC011E800D9F55F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E012C68B1BC011E800D9F55F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E012C68D1BC011E800D9F55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E012C68F1BC011E800D9F55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E012C6911BC011E800D9F55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E012C6921BC011E800D9F55F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E012C6931BC011E800D9F55F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E012C6451BBE74E500D9F55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E012C63F1BBE74E500D9F55F = {
+			isa = PBXGroup;
+			children = (
+				E012C6811BC011E800D9F55F /* KeyboardKeeper */,
+				E012C6491BBE74E500D9F55F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E012C6491BBE74E500D9F55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E012C6481BBE74E500D9F55F /* KeyboardKeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E012C6811BC011E800D9F55F /* KeyboardKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				E012C6821BC011E800D9F55F /* Code */,
+				E012C68C1BC011E800D9F55F /* Resources */,
+			);
+			path = KeyboardKeeper;
+			sourceTree = "<group>";
+		};
+		E012C6821BC011E800D9F55F /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				E012C6851BC011E800D9F55F /* KeyboardKeeper */,
+				E012C6831BC011E800D9F55F /* AppDelegate.h */,
+				E012C6841BC011E800D9F55F /* AppDelegate.m */,
+				E012C6881BC011E800D9F55F /* UIViewController+AnimateConstraintChange.h */,
+				E012C6891BC011E800D9F55F /* UIViewController+AnimateConstraintChange.m */,
+				E012C68A1BC011E800D9F55F /* ViewController.h */,
+				E012C68B1BC011E800D9F55F /* ViewController.m */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		E012C6851BC011E800D9F55F /* KeyboardKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				E012C6861BC011E800D9F55F /* KeyboardKeeper.h */,
+				E012C6871BC011E800D9F55F /* KeyboardKeeper.m */,
+			);
+			path = KeyboardKeeper;
+			sourceTree = "<group>";
+		};
+		E012C68C1BC011E800D9F55F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E012C68D1BC011E800D9F55F /* Assets.xcassets */,
+				E012C68E1BC011E800D9F55F /* LaunchScreen.storyboard */,
+				E012C6901BC011E800D9F55F /* Main.storyboard */,
+				E012C6921BC011E800D9F55F /* Info.plist */,
+				E012C6931BC011E800D9F55F /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E012C6471BBE74E500D9F55F /* KeyboardKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E012C65F1BBE74E500D9F55F /* Build configuration list for PBXNativeTarget "KeyboardKeeper" */;
+			buildPhases = (
+				E012C6441BBE74E500D9F55F /* Sources */,
+				E012C6451BBE74E500D9F55F /* Frameworks */,
+				E012C6461BBE74E500D9F55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardKeeper;
+			productName = KeyboardListener;
+			productReference = E012C6481BBE74E500D9F55F /* KeyboardKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E012C6401BBE74E500D9F55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zakhej.com;
+				TargetAttributes = {
+					E012C6471BBE74E500D9F55F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E012C6431BBE74E500D9F55F /* Build configuration list for PBXProject "KeyboardKeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E012C63F1BBE74E500D9F55F;
+			productRefGroup = E012C6491BBE74E500D9F55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E012C6471BBE74E500D9F55F /* KeyboardKeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E012C6461BBE74E500D9F55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E012C69A1BC011E800D9F55F /* Main.storyboard in Resources */,
+				E012C6981BC011E800D9F55F /* Assets.xcassets in Resources */,
+				E012C6991BC011E800D9F55F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E012C6441BBE74E500D9F55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E012C69C1BC011E800D9F55F /* main.m in Sources */,
+				E012C6951BC011E800D9F55F /* KeyboardKeeper.m in Sources */,
+				E012C6961BC011E800D9F55F /* UIViewController+AnimateConstraintChange.m in Sources */,
+				E012C6971BC011E800D9F55F /* ViewController.m in Sources */,
+				E012C6941BC011E800D9F55F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E012C68E1BC011E800D9F55F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E012C68F1BC011E800D9F55F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E012C6901BC011E800D9F55F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E012C6911BC011E800D9F55F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E012C65D1BBE74E500D9F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E012C65E1BBE74E500D9F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E012C6601BBE74E500D9F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/KeyboardKeeper/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zakhej.KeyboardKeeper;
+				PRODUCT_NAME = KeyboardKeeper;
+			};
+			name = Debug;
+		};
+		E012C6611BBE74E500D9F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/KeyboardKeeper/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zakhej.KeyboardKeeper;
+				PRODUCT_NAME = KeyboardKeeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E012C6431BBE74E500D9F55F /* Build configuration list for PBXProject "KeyboardKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E012C65D1BBE74E500D9F55F /* Debug */,
+				E012C65E1BBE74E500D9F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E012C65F1BBE74E500D9F55F /* Build configuration list for PBXNativeTarget "KeyboardKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E012C6601BBE74E500D9F55F /* Debug */,
+				E012C6611BBE74E500D9F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E012C6401BBE74E500D9F55F /* Project object */;
+}
